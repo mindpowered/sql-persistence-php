@@ -1,0 +1,15 @@
+{
+    "name": "mindpowered/sql-persistence",
+    "description": "SQL Persistence",
+    "license": "CPAL-1.0",
+    "autoload": {
+        "psr-4": {
+            "persistence\\": "lib/persistence/",
+            "mindpowered\\sql_persistence\\": "lib/wrappers/"
+        }
+    },
+    "require": {
+        "mindpowered/maglev": "*",
+        "catfan/medoo": "~1.7.10"
+    }
+}
