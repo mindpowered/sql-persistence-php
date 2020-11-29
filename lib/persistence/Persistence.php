@@ -17,10 +17,10 @@ class Persistence
         this->phpbus->register('Persistence.EnglishAuction.Auction.FindStarting', function($args) {
             return null;
         });
-        this->phpbus->register('Persistence.EnglishAuction.Auction.FindStarting', function($args) {
+        this->phpbus->register('Persistence.EnglishAuction.Auction.FindEnding', function($args) {
             return null;
         });
-        this->phpbus->register('Persistence.EnglishAuction.Auction.FindEnding', function($args) {
+        this->phpbus->register('Persistence.EnglishAuction.Auction.FindOpen', function($args) {
             return null;
         });
         this->phpbus->register('Persistence.EnglishAuction.Bid.CountForAuction', function($args) {

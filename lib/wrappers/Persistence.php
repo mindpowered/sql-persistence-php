@@ -27,13 +27,13 @@ class Persistence
 
 	/**
 	 * 
-	 * @param object $ 
+	 * @param object $obj 
 	 * @return string 
 	 */
-	public function EnglishAuction_Auction_CreateNew($)
+	public function EnglishAuction_Auction_CreateNew($obj)
 	{
 		$phpbus = MagLevPhp::getInstance('default');
-		$args = [$];
+		$args = [$obj];
 		$ret = null;
 		$phpbus->call('Persistence.EnglishAuction.Auction.CreateNew', $args, function($async_ret) use (&$ret) { $retn = $async_ret; });
 		return $ret;
