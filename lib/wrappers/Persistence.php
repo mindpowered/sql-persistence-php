@@ -1,9 +1,9 @@
 <?php
-namespace mindpowered\persistence;
+namespace mindpowered\sql_persistence;
 
 use \maglev\MagLev;
 use \maglev\MagLevPhp;
-use \persistence\Persistence as Persistence_Library;
+use \sql_persistence\Persistence as Persistence_Library;
 
 /**
  * Copyright Mind Powered Corporation 2020
