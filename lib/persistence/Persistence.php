@@ -6,7 +6,7 @@ use \maglev\MagLevPhp;
 
 class Persistence
 {
-    public function __contruct(MagLev $bus) {
+    public function __construct(MagLev $bus) {
         $this->phpbus = new MagLevPhp($bus);
         $this->phpbus->register('Persistence.EnglishAuction.Auction.CreateNew', function($args) {
             return "123";

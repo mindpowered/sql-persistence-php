@@ -35,7 +35,7 @@ class Persistence
 		$phpbus = MagLevPhp::getInstance('default');
 		$args = [$obj];
 		$ret = null;
-		$phpbus->call('Persistence.EnglishAuction.Auction.CreateNew', $args, function($async_ret) use (&$ret) { $retn = $async_ret; });
+		$phpbus->call('Persistence.EnglishAuction.Auction.CreateNew', $args, function($async_ret) use (&$ret) { $ret = $async_ret; });
 		return $ret;
 	}
 
