@@ -5,7 +5,7 @@
     "autoload": {
         "psr-4": {
             "persistence\\": "lib/persistence/",
-            "mindpowered\\sql_persistence\\": "lib/wrappers/"
+            "mindpowered\\persistence\\": "lib/wrappers/"
         }
     },
     "require": {

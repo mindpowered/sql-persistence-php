@@ -1,6 +1,6 @@
 
-sql_persistence
-===============
+persistence
+===========
 
 Contents
 ========
@@ -20,13 +20,13 @@ Third-party dependencies may have additional requirements.
 
 # Installation
 
-You can get sql_persistence using Composer. Composer manages dependencies for packages from Packagist and you can get it here: <https://getcomposer.org/> .
+You can get persistence using Composer. Composer manages dependencies for packages from Packagist and you can get it here: <https://getcomposer.org/> .
 
-Create a composer.json file in the top-most directory of your project and add `mindpowered/sql_persistence` to the requirements:
+Create a composer.json file in the top-most directory of your project and add `mindpowered/persistence` to the requirements:
 ```
 {
         "require": {
-                "mindpowered/sql_persistence" : "*"
+                "mindpowered/persistence" : "*"
         }
 }
 ```
