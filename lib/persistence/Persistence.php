@@ -36,7 +36,7 @@ class Persistence
 
     private function noimpl(string $method) {
         $data = ["_not_implemented_", "sql-persistence", "php", $method];
-        $this->phpbus->call("MindPowered.Telemetry.Send", $data);
+        $this->phpbus->call("MindPowered.Telemetry.Send", $data, function(){});
         $msg = "You are trying to use the '" . $method . "' method but it's not quite done yet. Please email support@mindpowered.dev to find out when it will be done.";
         throw new \Exception($msg);
     }
